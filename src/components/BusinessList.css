@@ -1,0 +1,64 @@
+.business-list {
+  margin-top: 20px;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding: 20px;
+  background-color: #fdad00;
+  box-shadow: 0px 0px 50px 5px rgba(130,130,130,0.8);
+}
+
+.business-list h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.business-list p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.business-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.business-item:hover {
+  transform: translateY(-5px);
+}
+
+.business-item h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.business-item button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.business-item button:hover {
+  background-color: #006B9F;
+}
+
+.business-item button:disabled {
+  background-color: #00476a;
+  cursor:default;
+}

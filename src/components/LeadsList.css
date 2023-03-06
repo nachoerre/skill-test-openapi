@@ -1,0 +1,29 @@
+.leads-container {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leads-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.leads-pagination button {
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leads-pagination button:hover {
+  background-color: #EDEDED;
+}

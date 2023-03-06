@@ -1,0 +1,27 @@
+.lead-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fdad00;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 5px rgba(130,130,130,0.8);
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  width: 35%;
+}
+
+.lead-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.lead-card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.lead-card p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
