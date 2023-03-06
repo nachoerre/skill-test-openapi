@@ -16,7 +16,7 @@ const BusinessList = () => {
   useEffect(() => {
     setIsLoading(true);
     fetchBusinesses();
-  }, [currentPage]);
+  }, []);
 
   const handlePrevPage = () => {
     setCurrentPage(currentPage - 1);
